@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 
-class Card extends Component {
+class Page extends Component {
     render() {
         return(
-            <div styleName="tc">
+            <div className="tc">
                 <h1>Title</h1>
                 <p>This is a sample component made with ReactJs</p>
             </div>
@@ -11,4 +11,4 @@ class Card extends Component {
     }
 }
 
-export default Card;
+export default Page;
